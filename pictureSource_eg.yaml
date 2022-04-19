@@ -1,0 +1,20 @@
+pictureSource:
+  source1:
+    urlPattern: xxx
+    detailPattern: xxx
+    targetPattern: xxx
+
+keyword:
+  keyword1:
+    - source1
+    - source2
+
+  keyword2:
+    - source3
+    - source4
+    - source5
+    - source6
+    - source7
+    - source8
+    - source9
+    - source10

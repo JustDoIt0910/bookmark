@@ -1,0 +1,4 @@
+*.exe
+application.yaml
+pictureSource.yaml
+*_test.go
