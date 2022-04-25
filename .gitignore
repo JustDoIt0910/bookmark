@@ -1,4 +1,5 @@
-*.exe
-application.yaml
-pictureSource.yaml
-*_test.go
+/backend/*.exe
+/backend/application.yaml
+/backend/*_test.go
+/backend/upload/
+/frontend/bookmark/node_modules/

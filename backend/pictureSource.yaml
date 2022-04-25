@@ -1,0 +1,41 @@
+pictureSource:
+  source1:
+    urlPattern: https://www.colorhub.me/search?tag={search}&page={page}
+    detailPattern: //div[@class='card photo-card']/a
+    targetPattern: //img[@class='card-img-top']
+
+keyword:
+  算法:
+    - category_algorithm_bg1.jpg
+    - category_algorithm_bg2.png
+    - category_algorithm_bg3.jpg
+
+  c++:
+    - category_cpp_bg1.jpg
+    - category_cpp_bg2.jpg
+    - category_cpp_bg3.jpg
+    - category_cpp_bg4.jpg
+
+  golang:
+    - category_golang_bg1.png
+    - category_golang_bg2.jpg
+    - category_golang_bg3.jpg
+
+  java:
+    - category_java_bg1.jpg
+    - category_java_bg2.jpg
+    - category_java_bg3.jpg
+    - category_java_bg4.jpg
+
+  linux:
+    - category_linux_bg1.jpg
+    - category_linux_bg2.jpg
+    - category_linux_bg3.jpg
+
+  ubuntu:
+    - category_ubuntu_bg1.jpg
+    - category_ubuntu_bg2.jpg
+
+  mysql:
+    - category_mysql_bg1.jpg
+    - category_mysql_bg2.jpg
