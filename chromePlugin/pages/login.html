@@ -1,0 +1,59 @@
+<html>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: rgb(7, 16, 31);
+        }
+        .login-area {
+            overflow: hidden;
+            background-color: #656369;
+            width: 300px;
+            height: 400px;
+            margin-top: 60px;
+            margin-left: 500px;
+        }
+        .label {
+            color: white;
+            margin-top: 30px;
+            margin-left: 20px;
+            font-size: 20px;
+            font-family:'Courier New', Courier, monospace;
+            font-style: italic;
+        }
+        .title {
+            margin-top: 30px;
+            margin-left: 60px;
+            color: white;
+            font-size: 40px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-style: italic;
+        }
+        input {
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 240px;
+            height: 30px;
+        }
+        .btn {
+            margin-top: 30px;
+            margin-left: 120px;
+        }
+        button {
+            width: 60px;
+            height: 40px;
+        }
+    </style>
+    <body>
+        <div class="login-area">
+            <div class="title">账户登录</div>
+            <div class="label">用户名</div>
+            <input type="text" name="username" id="username" />
+            <div class="label">密码</div>
+            <input type="password" name="password" id="password" />
+            <div class="btn"><button id="login-btn">登录</button></div>
+        </div>
+    </body>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/login.js" charset="UTF-8"></script>
+</html>

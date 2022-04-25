@@ -1,0 +1,57 @@
+<html>
+  <meta charset="UTF-8">
+  <style>
+    html, body {
+      width: 200px;
+      height: 100px;
+    }
+    .title-wrapper
+    {
+      display: flex;
+      flex-direction: row;
+    }
+    .title {
+      margin-left: 3px;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      color: rgb(86, 73, 163);
+    }
+    .icon {
+      margin-top: 1px;
+      background-image: url("../img/icon.png");
+      width: 30px;
+      height: 30px;
+      background-size: 30px 30px;
+    }
+    #space, #login {
+      color: rgb(38, 44, 98);
+      font-weight: bold;
+      margin-top: 15px;
+      margin-left: 19px;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      cursor: pointer;
+    }
+    .user-area {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+  <body>
+    <div class="title-wrapper">
+      <div class="icon">
+      </div>
+      <div class="title">
+        Bookmark
+      </div>
+      <p style="color: grey">v1.0</p>
+    </div>
+    <div class="user-area">
+      <div id="space">我的空间</div>
+      <div id="login">登录账户</div>
+    </div>
+    <script src="../js/navigate.js"></script>
+  </body>
+</html>
