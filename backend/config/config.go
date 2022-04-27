@@ -3,15 +3,14 @@ package config
 import (
 	"bookmark/logger"
 	"github.com/spf13/viper"
-	"os"
 )
 
 var GlobalConfig *viper.Viper
 
-func InitConfig()  {
-	workDir, _ := os.Getwd()
+func InitConfig() {
+	//workDir, _ := os.Getwd()
 	GlobalConfig = viper.New()
-	GlobalConfig.AddConfigPath(workDir)
+	GlobalConfig.AddConfigPath("/home/ubuntu/bookmark/")
 	GlobalConfig.SetConfigName("application")
 	GlobalConfig.SetConfigType("yaml")
 	err := GlobalConfig.ReadInConfig()

@@ -3,7 +3,7 @@ document.getElementById("login-btn").addEventListener("click", function() {
     var password = document.getElementById("password").value
     $.ajax({ 
         type: "POST",
-        url: "http://localhost:3000/api/v1/login",
+        url: "http://asilentboy.cn:9999/bookmark/api/v1/login",
         data: JSON.stringify({
             username: username,
             password: password

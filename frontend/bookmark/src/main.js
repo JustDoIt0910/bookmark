@@ -6,7 +6,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-axios.defaults.baseURL = 'http://localhost:3000/api/v1'
+axios.defaults.baseURL = 'http://asilentboy.cn:9999/bookmark/api/v1'
 axios.interceptors.request.use(config => {
   config.headers.Authorization = `Bearer ${window.localStorage.getItem('token')}`
   return config

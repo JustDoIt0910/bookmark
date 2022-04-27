@@ -1,6 +1,6 @@
 document.getElementById("space").addEventListener("click", function() {
     chrome.tabs.create({
-        url: "http://localhost:8080/#/space"
+        url: "http://asilentboy.cn/bookmark/#/space"
     })
 })
 

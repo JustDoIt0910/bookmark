@@ -17,7 +17,7 @@ function addBookmark() {
     var Bearertoken = `Bearer ${token}`
     $.ajax({ 
       type: "POST",
-      url: "http://localhost:3000/api/v1/bookmark",
+      url: "http://asilentboy.cn:9999/bookmark/api/v1/bookmark",
       data: JSON.stringify({
         url: tab.url
       }),

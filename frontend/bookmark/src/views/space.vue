@@ -271,9 +271,12 @@ export default {
             this.getBookmarks()
         },
         async addBookmark() {
+            let c = this.currentCategory
+            if(this.selectedCid != 0)
+                c = this.selectedCid
             await this.$http.post('bookmark', {
                 url: this.newBookmarkUrl,
-                cid: this.selectedCid
+                cid: c
             })
             this.newBookmarkUrl = ""
             this.bookmarkDialog = false

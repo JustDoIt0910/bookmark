@@ -10,7 +10,7 @@ func (server *Server) InitRouter() {
 	r := gin.New()
 	r.Use(gin.Logger(), gin.Recovery(), middleware.Cors())
 
-	visitor := r.Group("/api/v1")
+	visitor := r.Group("bookmark/api/v1")
 	{
 		visitor.GET("/ping", v1.Pong)
 		visitor.POST("/verificationCode", v1.GetVerificationCode)
@@ -18,7 +18,7 @@ func (server *Server) InitRouter() {
 		visitor.POST("/login", v1.Login)
 	}
 
-	member := r.Group("/api/v1")
+	member := r.Group("bookmark/api/v1")
 	member.Use(middleware.JwtMiddleware())
 	{
 		member.POST("/category", v1.CreateCategory)

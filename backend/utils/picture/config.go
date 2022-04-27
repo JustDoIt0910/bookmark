@@ -3,7 +3,6 @@ package picture
 import (
 	"bookmark/logger"
 	"github.com/spf13/viper"
-	"os"
 )
 
 var (
@@ -13,8 +12,8 @@ var (
 
 func init() {
 	pictureConfig = viper.New()
-	workDir, _ := os.Getwd()
-	pictureConfig.AddConfigPath(workDir)
+	//workDir, _ := os.Getwd()
+	pictureConfig.AddConfigPath("/home/ubuntu/bookmark/")
 	pictureConfig.SetConfigType("yaml")
 	pictureConfig.SetConfigName("pictureSource")
 	err := pictureConfig.ReadInConfig()
