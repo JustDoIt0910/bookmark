@@ -1,6 +1,6 @@
 # bookmark
 ## gin + vue 实现的 web书签管理器
-### 一个web书签管理系统，后端使用gin框架，前端使用vue。支持书签分类的任意多级创建，书签的批量添加，移动等，实现创建分类自动搭配背景图，配合chrome插件可以一键收藏网页
+### 一个web书签管理系统，后端使用gin框架，redis作缓存，前端使用vue。支持书签分类的任意多级创建，书签的批量添加，移动等，实现创建分类自动搭配背景图，配合chrome插件可以一键收藏网页
 
 #### 项目部署地址  [登录/注册](http://asilentboy.cn/bookmark/#/login)          [个人空间](http://asilentboy.cn/bookmark/#/space)
 
